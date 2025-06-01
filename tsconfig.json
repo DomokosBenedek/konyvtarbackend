@@ -16,12 +16,12 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "types": ["node"]
   },
   "include": [
-    "src"
-  ],
-  "exclude": [
+    "src",
     "prisma"
-  ]
+  ],
+  "exclude": []
 }
